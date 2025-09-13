@@ -1,62 +1,125 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html> 
+<html lang="id">
 <head>
+    <meta charset="UTF-8">
     <title>Curriculum Vitae</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        body {
+            font-family: Poppins, sans-serif;
+            background-image: url("ribbon.jpg");
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #ffffff;
+            padding: 20px;
+            border: 4px dashed #db7093;
+            border-radius: 10px;
+        }
+        h1 {
+            text-align: center;
+            color: #cc3366;
+        }
+        h2 {
+            color: #cc3366;
+            border-bottom: 4px dashed #db7093;
+            padding-bottom: 5px;
+        }
+        img {
+            display: block;
+            margin: 15px auto;
+            border-radius: 50%;
+            width: 180px;
+            ;
+        }
+        p {
+            text-align: center;
+            line-height: 1.5;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+        table, td {
+            border: 1px solid #cc3366;
+        }
+        td {
+            padding: 8px;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        ul li {
+            margin-bottom: 8px;
+        }
+        a {
+            color: #cc3366;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        i {
+            margin-right: 6px;
+            color: #cc3366;
+        }
+    </style>
 </head>
 <body>
+    <div class="container">
+        <h1>Voudy Josevin Wilsan</h1>
 
-    <!-- Judul website berupa nama lengkap -->
-    <h1>Voudy Josevin Wilsan</h1>
+        <img src="muter.webp" alt="Foto Profil">
 
-    <!-- Foto profil -->
-    <img src="foto.jpg" alt="Foto Profil" width="200">
+        <p>
+            Halo! Saya adalah mahasiswa di Universitas Bunda Mulia yang memiliki minat 
+            pada bidang teknologi dan desain web. Saya suka belajar hal baru dan bekerja 
+            sama dalam tim.
+        </p>
 
-    <!-- Deskripsi singkat tentang diri sendiri -->
-    <p>
-        Halo! Saya adalah mahasiswa di Universitas Bunda Mulia yang memiliki minat 
-        pada bidang teknologi dan desain web. Saya suka belajar hal baru dan bekerja 
-        sama dalam tim.
-    </p>
+        <p>
+            Kunjungi website kampus saya di sini: 
+            <a href="https://www.ubm.ac.id" target="_blank">Universitas Bunda Mulia</a>
+        </p>
 
-    <!-- Link menuju website UBM -->
-    <p>
-        Kunjungi website kampus saya di sini: 
-        <a href="https://www.ubm.ac.id" target="_blank">Universitas Bunda Mulia</a>
-    </p>
+        <h2><i class="fa-solid fa-id-card"></i> Biodata</h2>
+        <table>
+            <tr>
+                <td><i class="fa-solid fa-signature"></i> <b>Nama</b></td>
+                <td>Voudy Josevin Wilsan</td>
+            </tr>
+            <tr>
+                <td><i class="fa-solid fa-cake-candles"></i> <b>Tempat, Tanggal Lahir</b></td>
+                <td>Amsterdam, 29 Februari 2005</td>
+            </tr>
+            <tr>
+                <td><i class="fa-solid fa-location-dot"></i> <b>Alamat</b></td>
+                <td>Jl. Uncle Muthu. 123, Australia</td>
+            </tr>
+            <tr>
+                <td><i class="fa-solid fa-envelope"></i> <b>Email</b></td>
+                <td>Kucinglucu@gmail.com</td>
+            </tr>
+            <tr>
+                <td><i class="fa-solid fa-phone"></i> <b>No. HP</b></td>
+                <td>08123456789</td>
+            </tr>
+        </table>
 
-    <!-- Biodata menggunakan tabel -->
-    <h2>Biodata</h2>
-    <table border="1" cellpadding="5" cellspacing="0">
-        <tr>
-            <td>Nama</td>
-            <td>Voudy Josevin Wilsan</td>
-        </tr>
-        <tr>
-            <td>Tempat, Tanggal Lahir</td>
-            <td>Amsterdam, 29 Februari 2005</td>
-        </tr>
-        <tr>
-            <td>Alamat</td>
-            <td>Jl. Uncle Muthu. 123, Australia</td>
-        </tr>
-        <tr>
-            <td>Email</td>
-            <td>Kucinglucu@gmail.com</td>
-        </tr>
-        <tr>
-            <td>No. HP</td>
-            <td>08123456789</td>
-        </tr>
-    </table>
-
-    <!-- Riwayat pendidikan -->
-    <h2>Riwayat Pendidikan</h2>
-    <ul>
-        <li>SD Negeri 1 <br> 2005 - 2012</li>
-        <li>SMP Negeri 2 <br> 2012 - 2015</li>
-        <li>SMA Negeri  3 <br> 2015 - 2018</li>
-        <li>Universitas Bunda Mulia <br> 2020 - Sekarang</li>
-    </ul>
-
+        <h2><i class="fa-solid fa-school"></i> Riwayat Pendidikan</h2>
+        <ul>
+            <li><i class="fa-solid fa-book"></i> SD Negeri 1 <br> 2005 - 2012</li>
+            <li><i class="fa-solid fa-book"></i> SMP Negeri 2 <br> 2012 - 2015</li>
+            <li><i class="fa-solid fa-book"></i> SMA Negeri 3 <br> 2015 - 2018</li>
+            <li><i class="fa-solid fa-university"></i> Universitas Bunda Mulia <br> 2020 - Sekarang</li>
+        </ul>
+    </div>
 </body>
 </html>
